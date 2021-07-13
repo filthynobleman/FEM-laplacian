@@ -34,4 +34,6 @@ The triangular mesh `M` must be a data structure containing at least the followi
   - `VERT` a `n-by-3` matrix containing the 3D coordinates of the vertices;
   - `TRIV` a `m-by-3` matrix containing the triangulation of the mesh (each row being a triplet of indices of vertices).
 
-The value of the stiffness and mass matrices at the real vertices are stored in consistent order with `M.VERT` in the top-left `n-by-n` sub-matrix.
+The value of the stiffness and mass matrices at the real vertices are stored in consistent order with `M.VERT` in the top-left `n-by-n` sub-matrix.  
+
+The repository already provides coefficients for hat functions up to 9th order.
