@@ -1,6 +1,8 @@
 # FEM-laplacian
 
-This repository contains a *MATLAB* function for computing the Finite Element Method (FEM) discretization of the Laplace-Beltrami operator on triangular meshes. The discretization is parametric on the polynomial's order of the hat functions.
+This repository contains a *MATLAB* function for computing the Finite Element Method (FEM) discretization of the Laplace-Beltrami operator on triangular meshes. The discretization is parametric on the polynomial's order of the hat functions.  
+
+The code in this repository implements the technique described in the article [Finite element approximation of the Laplace–Beltrami operator on a surface with boundary](https://doi.org/10.1007/s00211-018-0990-2), by E. Burman et al.
 
 ## Requirements
 The function is self contained and does not require any additional code.
